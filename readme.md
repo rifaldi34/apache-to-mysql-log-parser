@@ -1,6 +1,8 @@
 
 # Apache Access Log Parser to MySQL
 
+import apache access.log files into a mysql table
+
 This Python script parses Apache access logs and inserts the log entries into a specified MySQL database table. It handles batch inserts for efficiency and supports datetime conversion to the MySQL `DATETIME` format.
 
 ## Requirements
